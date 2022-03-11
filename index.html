@@ -13,7 +13,8 @@
             integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
             crossorigin="anonymous"
         />
-
+<!--  -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
         <!-- google Montserrat  font  -->
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -78,21 +79,42 @@
             </div>
         </main>
         <section>
-            <div>
-                <h6>How does JavaScript work?</h6>
-                
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    How does JavaScript work?
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">JavaScript is an interpreted programming language, not a compiled language. It's also known as a web page scripting language. JavaScript can be used to create both client-side and server-side applications. JavaScript's inner workings are more akin to a dynamically typed, interpreted language. The JavaScript code is read by a browser interpreter, which analyzes and executes each line. Just-In-Time (JIT) compilation is a mechanism used by more contemporary browsers. Just before it runs, this command converts JavaScript to executable bytecode.</div>
+              </div>
             </div>
-            <div>
-                <h6>What does JavaScript event loop do?</h6>
-
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    What does JavaScript event loop do?
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">The runtime model of JavaScript is based on an event loop, which executes the code, collects and processes events, and performs queued sub-tasks. This model differs significantly from models written in other languages such as C and Java.</div>
+              </div>
             </div>
-            <div>
-                <h6>Difference between local storage and session storage</h6>
-
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    Difference between local storage and session storage
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">The distinction between sessionStorage and localStorage is that data in localStorage does not expire, whereas data in sessionStorage is removed when the page session expires. When a document is loaded in a browser tab, a new page session is established and allocated to that tab.</div>
+              </div>
             </div>
+          </div>
         </section>
-        <footer></footer>
-
+        <footer><hr></footer>
+<!--  -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
         <!-- add javascript  file  -->
         <script src="./js/app.js"></script>
     </body>
